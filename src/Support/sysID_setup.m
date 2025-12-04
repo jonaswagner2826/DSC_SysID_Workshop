@@ -48,7 +48,7 @@ elseif input_type == 4
 % Chirp (0.1 Hz → 5 Hz over 10 seconds)
 f0 = 0.01;     % start frequency (Hz)
 f1 = 2;       % end frequency   (Hz)
-u = chirp(time, f0, time(end), f1);
+u = chirp(time, f0, time(end), f1,'linear',90);
 
 elseif input_type == 5
 % PRBS (pseudo-random binary sequence) with hold time
@@ -62,7 +62,8 @@ uprbs = prbs_long(1:min(length(prbs_long), length(time)));
 if length(uprbs) < length(time)
     u = [uprbs zeros(1, length(time)-length(uprbs))];
 else
-    u = uprbs;
+    uprbs(0:300) = 0;
+    u = uprbs; 
 end
 
 else
