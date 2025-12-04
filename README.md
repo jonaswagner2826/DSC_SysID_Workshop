@@ -8,7 +8,7 @@
 
 
 ## Introduction to System Identification
-System identification is a critical methodology for building mathematical models of dynamic systems based on observed data. This workshop explores various system identification techniques used in practice to model complex systems. Participants will gain hands-on experience with frequency response-based identification tools and learn to apply them in practical scenarios using an active suspension experimental system. A brief introduction to nonlinear system identification techniques will also be given. Download the slides here to follow along during the workshop  [docs/____](docs/_____).
+System identification is a critical methodology for building mathematical models of dynamic systems based on observed data. This workshop explores various system identification techniques used in practice to model complex systems. Participants will gain hands-on experience with frequency response-based identification tools and learn to apply them in practical scenarios using an active suspension experimental system. A brief introduction to nonlinear system identification techniques will also be given. Download the slides here to follow along during the workshop  [docs/SysIDWorkshopSlides.pdf](docs/SysIDWorkshopSlides.pdf).
 
 
 
